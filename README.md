@@ -65,6 +65,12 @@ Minority Class Recall	0.65	0.70
 
 The improvement is not accidental — it comes specifically from learning on past failures.
 
+📌 Failure Analysis (SHAP)
+
+The system analyzes misclassified samples using SHAP to understand which features contributed to incorrect predictions.
+
+![Failure Explanation](results/shap_plots/failure_summary_class1.png)
+
 📌 Explainability Insight
 
 Instead of explaining the entire model globally, SHAP was applied only to misclassified samples.
