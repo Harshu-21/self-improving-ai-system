@@ -79,6 +79,10 @@ and edge cases where socioeconomic patterns break down.
 
 These insights directly guided the retraining strategy.
 
+📌 system Architecture
+
+Train Model  →  Detect Prediction Failures  →  Explain Failures using SHAP  → Augment Training Data → Retrain Model → Evaluate Improvement
+  
 📌 Why This Is a “System”
 
 This project qualifies as a system because it:
